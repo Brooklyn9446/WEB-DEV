@@ -1,0 +1,460 @@
+body{
+    background-color:rgba(0, 0, 0, 0.893);
+    margin:0px;
+   
+
+}
+.back-img{
+    background-size: max(2200px,100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width:100%;
+    background-image: url("/codewitharry/assets/images/IN-en-20240624-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+   background-position: center center;
+
+}
+
+.gradient{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.3),rgba(0,0,0,1));
+
+}
+
+nav{
+    width:100%;
+    height: 15%;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    justify-content: space-around ;
+    align-items: CENTER;
+   
+}
+
+
+.logo img{
+    width:180px;
+    height: 40px;
+    
+}
+
+
+
+#English{
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border:0.2px solid white;
+    height:30px;
+    width:120px;
+    border-radius: 4px;
+    margin-left: 100px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#English:active{
+    border: 3px solid white;
+}
+
+
+#Signout{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 40%;
+    
+
+}
+
+#first{
+    font-size: 25px;
+    font-family: Helvetica;
+    margin-bottom: 5px;
+    
+    margin-bottom: 0px;
+    
+    
+
+}
+
+#second{
+    text-align: center;
+    margin-top: 0px;
+    font-family: Helvetica ;
+    font-size:50px;
+    font-weight: bold;
+}
+
+    
+
+#third{
+    font-size: 24px;
+    font-family: Helvetica;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#Finish{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width:220px;
+    border:none;
+    margin-top: 40px;
+    border-radius: 5px;
+
+}
+
+.second{
+    background-color: black;
+    color: white;
+    max-width:100vw;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    margin-top: 7px;
+   
+}
+
+
+.nd2-Text{
+    width: 550px;
+
+
+}
+
+#first-2{
+    font-size: 47px;
+    font-family: Helvetica;
+    font-weight: 900;
+}
+
+#second-2{
+    font-family:  Helvetica;
+    width: 520px;
+    font-size: 26px;
+}
+.img-2nd{
+    position: relative;
+}
+.img-2nd img{
+    position: relative;
+    z-index: 4;
+    height: 400px;
+   
+    
+}
+
+
+.img-2nd video{
+    position: absolute;
+    left: 70px;
+    top: 83px;
+    height: 222px;
+}
+
+.third{
+    margin-top: 7px;
+    width: 100%;
+    height: 80%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.phone-download{
+    display: flex;
+    justify-content: left ;
+    gap:20px;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.407);
+    width: 300px;
+    border-radius: 14px;
+    height: 100px;
+    position: relative;
+    bottom: 130px;
+    left:120px;
+    background-color: black;
+
+}
+.third-text{
+    color: white;
+    
+}
+
+.Phone{ 
+    height: 400px;
+    width: 570px;
+}
+.img-3rd{
+    height: 400px;
+}
+.img-3rd-ST{
+    height: 80px;
+    margin-left: 15px;
+}
+#third-first{
+    color: white;
+    font-family:  Helvetica;
+    font-weight: bold;
+
+}
+
+#third-second{
+    color: rgba(0, 119, 255, 0.886);
+    font-family: Helvetica;
+}
+
+.phone-download-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.third-text{
+    padding-left:10px ;
+    width: 700px;
+}
+.third-text h1{
+    display: flex;
+    font-size: 47px;
+    font-family: Helvetica;
+    font-weight: 750;
+}
+.third-text p{
+    font-family:  Helvetica;
+    width: 530px;
+    font-size: 24px;
+}
+
+.fourth{
+    margin-top: 7px;
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    
+}
+
+
+   
+
+   
+
+#first-4{
+    font-size: 47px;
+    font-family: Helvetica;
+    font-weight: 900;
+}
+
+#second-4{
+    font-family:  Helvetica;
+    width: 560px;
+    font-size: 26px;
+}
+.img-4rth{
+    position: relative;
+}
+.img-4rth video{
+    position: absolute;
+   right: 120px;
+    top: 22px;
+    height: 222px;
+    z-index: 0;
+    width:  370px;
+}
+
+.img-4rth img{
+    position: relative;
+    z-index: 1;
+    width:600px
+}
+
+.fifth{
+    margin-top: 7px;
+    max-width: 100%;
+    height:500px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+
+    
+   
+.img-5th img{
+    width: 30rem;
+}
+
+.fifth-text h1{
+    font-size: 47px;
+    font-family: Helvetica;
+    font-weight: 800;
+}
+.fifth-text p{
+    font-family:  Helvetica;
+    width: 560px;
+    font-size: 24px;
+}
+
+.faq-section{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 110%;
+    background-color: black;
+    margin-top: 7px;
+}
+
+.faq-section button{
+    background-color: red;
+    color: white;
+    font-size: 24;
+    font-weight: bold;
+    height: 50px;
+    width:220px;
+    border:none;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.faq{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq div{
+    margin-bottom: 10px;
+    height:30px;
+    width: 70%;
+    background-color: rgba(47, 46, 46, 0.955);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-family:  Helvetica;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+
+footer{
+    margin-top: 7px;
+    background-color: black;
+    height: 50%;
+}
+.faq-section h1{
+    font-size: 47px;
+    font-family: Helvetica;
+    font-weight: 800;
+    text-align: center;
+}
+
+.faq div:hover{
+    background-color: #414141;
+    cursor: pointer;
+}
+
+.Questions{
+    padding-top: 50px;
+    margin-left: 200px;
+    color: rgb(173, 171, 171);
+    font-family:  Helvetica;
+    padding-bottom: 20px;
+}
+
+.footer{
+    text-decoration: underline;
+    color: rgb(173, 171, 171);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left:200px;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+
+#English2{
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border:0.2px solid white;
+    height:30px;
+    width:120px;
+    border-radius: 4px;
+    
+    text-align: center;
+}
+
+#Foot-netflix{
+    margin-top: 12px;
+    grid-column: 1;
+}
+
+@media screen and (max-width:1614px) {
+    .second{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .third{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .third-text{
+        padding-top: 10px;
+    }
+    .third-text h1{
+        padding-left: 40px;
+    }
+    .third-text p{
+        padding-left: 40px;
+    }
+
+    .fourth{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .fifth{
+        flex-wrap: wrap;
+        padding-bottom: 90px;
+    }
+
+    .footer{
+        grid-template-columns:1fr 1fr 1fr 1fr ;
+    }
+}
